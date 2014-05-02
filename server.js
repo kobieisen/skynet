@@ -1651,7 +1651,7 @@ function setupRestfulRoutes (server) {
         }
         });
       } else {
-        console.log("Device not found or token not valid");
+        console.log("Device not found or token not valid ");
         regdata = {
           "error": {
             "message": "Device not found or token not valid",
